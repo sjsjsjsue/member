@@ -21,6 +21,10 @@ dependencies {
 	
 	//thymeleaf
 	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+
+	//롬복
+	annotationProcessor 'org.projectlombok:lombok'
+	compileOnly 'org.projectlombok:lombok'
 }
 
 tasks.named('test') {

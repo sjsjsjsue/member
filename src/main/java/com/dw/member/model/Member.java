@@ -22,7 +22,29 @@ public class Member {
 	private String name; // 이름
 	@Column
 	private int age; // 나이
+
+	@Column(length = 30)
+	private String userId; // userid
+
+	@Column(length = 40)
+	private String userPassword; // user 비밀번호
 	
+
+	public String getUserPassword() {
+		return this.userPassword;
+	}
+	
+	public void setUserPassword(String userPassword) {
+		this.userPassword = userPassword;
+	}
+	
+	public String getUserId() {
+		return this.userId;
+	}
+
+	public void setUserId(String userId) {
+		this.userId = userId;
+	}
 	// JoinColumn : member 테이블에 dept_id 라는 컬럼(fk) 생성
 	@ManyToOne
 	@JoinColumn(name = "dept_id")
