@@ -7,6 +7,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 // webconfig : 웹 설정
 // config : 설정
+// postman 으로 할 때는 @Configuration를 주석처리 하쟈
 @Configuration
 public class WebConfig implements WebMvcConfigurer {
   
