@@ -9,3 +9,8 @@ spring:
     generate-ddl: true
     hibernate.ddl.auto: update
     show-sql: true
+aws:
+  s3:
+    access-id: AKIA2ZYRMOPUXD6TTA5J
+    access-pw: YafQ/Sc0dqYI/1jDc36KXnm4ftKbfhfElcVcSbYe
+    bucket: s3 이름
