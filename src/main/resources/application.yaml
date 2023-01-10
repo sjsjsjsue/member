@@ -11,6 +11,6 @@ spring:
     show-sql: true
 aws:
   s3:
-    access-id: AKIA2ZYRMOPUXD6TTA5J
-    access-pw: YafQ/Sc0dqYI/1jDc36KXnm4ftKbfhfElcVcSbYe
+    access-id: YOUR ID
+    access-pw: YOUR PASSWORD
     bucket: s3 이름

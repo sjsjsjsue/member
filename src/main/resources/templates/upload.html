@@ -60,7 +60,7 @@
         if(file != null){
             var data = new FormData();
             data.append('image',file.files[0]);
-            // append key 이름 과 controller 의 RequestParm 과 이름이 같아야함.
+            // append key 이름 과 controller 의 RequestParam 과 이름이 같아야함.
             //파일업로드 ajax는 옵션이 다르다.
             $.ajax({
                 type : 'POST',
